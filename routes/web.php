@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\AppController::class, 'index']);
+
+Route::get('/customize', function () {
+    return view('pages.customize');
+});
