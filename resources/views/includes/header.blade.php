@@ -9,6 +9,7 @@
     </li>
     <li class="nav-item @if (Request::is('pricing')){{'active'}}@endif">
       <a class="nav-link" href="/pricing">Pricing</a>
+    </li>
     <li class="nav-item @if (Request::is('customize')){{'active'}}@endif">
       <a class="nav-link" href="/customize">Customize</a>
     </li>
