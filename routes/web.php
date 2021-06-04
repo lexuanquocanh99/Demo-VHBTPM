@@ -18,3 +18,7 @@ Route::get('/', [App\Http\Controllers\AppController::class, 'index']);
 Route::get('/pricing', function() {
     return view('pages.pricing');
 });
+
+Route::get('/customize', function () {
+    return view('pages.customize');
+});
