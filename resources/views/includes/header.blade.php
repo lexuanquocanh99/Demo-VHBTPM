@@ -7,6 +7,8 @@
     <li class="nav-item @if (Request::is('/')){{'active'}}@endif">
       <a class="nav-link" href="/">Dashboard</a>
     </li>
+    <li class="nav-item @if (Request::is('pricing')){{'active'}}@endif">
+      <a class="nav-link" href="/pricing">Pricing</a>
     <li class="nav-item @if (Request::is('customize')){{'active'}}@endif">
       <a class="nav-link" href="/customize">Customize</a>
     </li>
