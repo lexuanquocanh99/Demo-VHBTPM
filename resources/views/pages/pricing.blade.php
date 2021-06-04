@@ -17,7 +17,7 @@
         <div class="free-plan card shadow rounded-lg">
           <div class="free-plan card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
-            <h6 class="card-price text-center">$99<span class="period">/month</span></h6>
+            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
             <hr>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fa fa-check" aria-hidden="true"></i></span>Change Scroll Progress Bar Position</li>
